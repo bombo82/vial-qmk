@@ -1,0 +1,48 @@
+{
+    "lighting": "none",
+    "customKeycodes": [
+        {
+            "name": "CL",
+            "title": "Cycle layers",
+            "shortName": "KB_CYCLE_L"
+        },
+        {
+            "name": "CLH",
+            "title": "Cycle layers on tap, momentary activate last layer on hold",
+            "shortName": "KB_CYCLE_LH"
+        }
+    ],
+    "features": {
+        "encoder": true
+    },
+    "matrix": {
+        "rows": 3,
+        "cols": 4
+    },
+    "layouts": {
+        "keymap": [
+            [
+                "0,0",
+                "0,1",
+                "0,2",
+                "0,3",
+                "0,0\n\n\n\n\n\n\n\n\ne",
+                "0,1\n\n\n\n\n\n\n\n\ne"
+            ],
+            [
+                "1,0",
+                "1,1",
+                "1,2",
+                "1,3",
+                "1,0\n\n\n\n\n\n\n\n\ne",
+                "1,1\n\n\n\n\n\n\n\n\ne"
+            ],
+            [
+                "2,0",
+                "2,1",
+                "2,2",
+                "2,3"
+            ]
+        ]
+    }
+}
