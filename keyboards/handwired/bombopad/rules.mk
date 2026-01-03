@@ -16,6 +16,7 @@
 # along with this program. If not,
 # see <https://www.gnu.org/licenses/gpl-3.0.html>.
 
+BOOTLOADER = caterina
 BOOTMAGIC_ENABLE = yes	# Enable Bootmagic Lite
 COMMAND_ENABLE = no		# Commands for debug and configuration
 CONSOLE_ENABLE = no		# Console for debug
