@@ -64,19 +64,20 @@ qmk compile -kb handwired/bombopad/v0_3 -km vial -e CONVERT_TO=rp2040_ce
   the USB cable or pressing the **RESET** button on the module.
 - **Architecture**: The build system will automatically switch to the ARM/ChibiOS stack required for the RP2040.
 
-
 ## Using Vial
 
 Once flashed, you can configure your BomboPad using the Vial application:
 
 1. **Download Vial**: Get the desktop app from [get.vial.today](https://get.vial.today/) or use
    the [Web Version](https://vial.rocks/).
-2. **Sideload JSON**: Until the BomboPad is officially included in the Vial database, you might need to load the
+2. **Unlock the Device**: By default, Vial might require a security combo to allow changes. Press the keys at matrix
+   coordinates **(0, 2)** and **(2, 0)** simultaneously while plugging in the device or when requested by the UI.
+3. **Sideload JSON**: Until the BomboPad is officially included in the Vial database, you might need to load the
    `vial.json` file manually:
     - Open Vial.
     - Go to `File` -> `Load sideload JSON`.
     - Select the `vial.json` file located in `keyboards/handwired/bombopad/keymaps/vial/`.
-3. **Configure**: Now you can change key assignments and encoder behaviors in real-time.
+4. **Configure**: Now you can change key assignments and encoder behaviors in real-time.
 
 ## Help & Contributions
 

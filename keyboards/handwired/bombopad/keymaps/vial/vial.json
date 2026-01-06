@@ -1,4 +1,7 @@
 {
+    "name": "BomboPad",
+    "vendorId": "0xFEED",
+    "productId": "0x200B",
     "lighting": "none",
     "customKeycodes": [
         {
