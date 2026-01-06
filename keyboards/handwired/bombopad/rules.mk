@@ -16,13 +16,15 @@
 # along with this program. If not,
 # see <https://www.gnu.org/licenses/gpl-3.0.html>.
 
+# Features configured via info.json:
+# - encoder = true
+# - oled = true
+# - bootmagic_lite = true
+
 BOOTLOADER = caterina
-BOOTMAGIC_ENABLE = yes	# Enable Bootmagic Lite
+LTO_ENABLE = no         # if firmware size over limit, try this option
+
+EXTRAKEY_ENABLE = yes	# Audio control and System control
 COMMAND_ENABLE = no		# Commands for debug and configuration
 CONSOLE_ENABLE = no		# Console for debug
-EXTRAKEY_ENABLE = yes	# Audio control and System control
 MOUSEKEY_ENABLE = no	# Mouse keys
-
-ENCODER_ENABLE = yes
-OLED_ENABLE = yes
-OLED_DRIVER = ssd1306

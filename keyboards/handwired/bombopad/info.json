@@ -1,9 +1,10 @@
 {
     "keyboard_name": "BomboPad",
     "maintainer": "Gianni Bombelli (bombo82) <bombo82@giannibombelli.it>",
-    "manufacturer": "handwired",
+    "manufacturer": "Gianni Bombelli (bombo82)",
     "url": "https://github.com/bombo82/bombopad",
-    "tags": ["macropad","encoder"],
+    "description": "BomboPad is an open-source, versatile 12-key macropad featuring dual rotary encoders and display support.",
+    "tags": ["macropad", "encoder", "oled", "handwired"],
     "usb": {
         "vid": "0xFEED",
         "pid": "0x200B",
@@ -23,6 +24,11 @@
     "processor": "atmega32u4",
     "bootloader": "caterina",
     "pin_compatible": "promicro",
+    "features": {
+        "encoder": true,
+        "oled": true,
+        "bootmagic_lite": true
+    },
     "layouts": {
         "LAYOUT": {
             "layout": [
